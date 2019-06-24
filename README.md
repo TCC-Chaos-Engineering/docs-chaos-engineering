@@ -1,33 +1,5 @@
 # CHAOS ENGINEERING
 
-## Chaos Monkey
-O Chaos Monkey na sua versão atual trabalha com uma ferramenta Open-Source de entrega contínua chamada Spinnaker.
-
-As aplicações devem ser gerenciadas pelo Spinnaker para que seja possível 'derrubar' as instâncias através do Chaos Monkey.
-
-### Spinnaker
-* [Site oficial](https://www.spinnaker.io/)
-* [Instalação](https://www.spinnaker.io/setup/install/)
-
-### AWS
-* [Site oficial](https://aws.amazon.com/pt/)
-
-### Docker
-Tecnologia que permite a criação de contêineres para uma camada adicional de virtualização permitindo que um programa rode em qualquer sistema através do contêiner do Docker e sendo mais leve que uma VM.
-* [Site oficial](https://www.docker.com/)
-
-### Kubernetes
-Sistema de orquestração de contêineres que automatiza a implatação, o dimensionamento e a gestão de aplicações em containers.
-* [Site oficial](https://kubernetes.io/)
-
-### Minikube
-Ferramenta para rodar o Kurbenetes localmente, executando um único 'node' rodando dentro de uma VM na máquina local.
-* [Instalação](https://kubernetes.io/docs/tasks/tools/install-minikube/)
-
-### Chaos Monkey for Spring Boot
-Inspirado no Chaos Monkey, roda no Java e possui métodos capazes de executar mais de um tipo de teste no sistema.
-* [Repositório no GitHub](https://github.com/codecentric/chaos-monkey-spring-boot)
-
 ## Gremlin
 
 ### Na prática
@@ -106,7 +78,30 @@ CPU ATTACK - HELLO WORLD
 top
 ```
 
+## Chaos Monkey
+O Chaos Monkey na sua versão atual trabalha com uma ferramenta Open-Source de entrega contínua chamada Spinnaker.
 
+As aplicações devem ser gerenciadas pelo Spinnaker para que seja possível 'derrubar' as instâncias através do Chaos Monkey.
 
+### Spinnaker
+* [Site oficial](https://www.spinnaker.io/)
+* [Instalação](https://www.spinnaker.io/setup/install/)
 
+### AWS
+* [Site oficial](https://aws.amazon.com/pt/)
 
+### Docker
+Tecnologia que permite a criação de contêineres para uma camada adicional de virtualização permitindo que um programa rode em qualquer sistema através do contêiner do Docker e sendo mais leve que uma VM.
+* [Site oficial](https://www.docker.com/)
+
+### Kubernetes
+Sistema de orquestração de contêineres que automatiza a implatação, o dimensionamento e a gestão de aplicações em containers.
+* [Site oficial](https://kubernetes.io/)
+
+### Minikube
+Ferramenta para rodar o Kurbenetes localmente, executando um único 'node' rodando dentro de uma VM na máquina local.
+* [Instalação](https://kubernetes.io/docs/tasks/tools/install-minikube/)
+
+### Chaos Monkey for Spring Boot
+Inspirado no Chaos Monkey, roda no Java e possui métodos capazes de executar mais de um tipo de teste no sistema.
+* [Repositório no GitHub](https://github.com/codecentric/chaos-monkey-spring-boot)
